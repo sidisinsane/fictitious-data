@@ -1,6 +1,6 @@
-# npm-package-template
+# fictitious-data
 
-A npm package template with typescript.
+Generate fictitious, testable data.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-white.svg?style=flat)](https://github.com/sidisinsane/npm-package-template/blob/main/LICENSE)
 

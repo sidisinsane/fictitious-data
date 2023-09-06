@@ -1,11 +1,11 @@
 {
-  "name": "npm-package-template",
+  "name": "fictitious-data",
   "version": "0.0.1",
-  "description": "A npm package template with typescript.",
+  "description": "Generate fictitious, testable data",
   "keywords": [
-    "npm",
-    "boilerplate",
-    "template",
+    "data",
+    "fake",
+    "faker",
     "typescript",
     "tsup",
     "prettier",
@@ -15,13 +15,13 @@
     "commitizen",
     "semantic-release"
   ],
-  "homepage": "https://github.com/sidisinsane/npm-package-template#readme",
+  "homepage": "https://github.com/sidisinsane/fictitious-data#readme",
   "bugs": {
-    "url": "https://github.com/sidisinsane/npm-package-template/issues"
+    "url": "https://github.com/sidisinsane/fictitious-data/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sidisinsane/npm-package-template.git"
+    "url": "git+https://github.com/sidisinsane/fictitious-data.git"
   },
   "license": "MIT",
   "author": {
@@ -75,5 +75,8 @@
     "tsup": "^7.2.0",
     "typedoc": "^0.25.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.10.44"
   }
 }

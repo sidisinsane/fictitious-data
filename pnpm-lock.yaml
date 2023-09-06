@@ -10,12 +10,16 @@ specifiers:
   eslint: ^8.48.0
   eslint-config-prettier: ^9.0.0
   jest: ^29.6.4
+  libphonenumber-js: ^1.10.44
   prettier: 3.0.3
   semantic-release: ^21.1.1
   ts-jest: ^29.1.1
   tsup: ^7.2.0
   typedoc: ^0.25.1
   typescript: ^5.2.2
+
+dependencies:
+  libphonenumber-js: 1.10.44
 
 devDependencies:
   '@mxssfd/typedoc-theme': 1.1.3_typedoc@0.25.1
@@ -3849,6 +3853,10 @@ packages:
       prelude-ls: 1.2.1
       type-check: 0.4.0
     dev: true
+
+  /libphonenumber-js/1.10.44:
+    resolution: {integrity: sha512-svlRdNBI5WgBjRC20GrCfbFiclbF0Cx+sCcQob/C1r57nsoq0xg8r65QbTyVyweQIlB33P+Uahyho6EMYgcOyQ==}
+    dev: false
 
   /lilconfig/2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
